@@ -1,0 +1,26 @@
+{
+  "name": "local-rag",
+  "version": "0.0.1",
+  "description": "Just a simple experiment running RAG system locally",
+  "homepage": "https://github.com/tsellobenok/local-rag#readme",
+  "bugs": {
+    "url": "https://github.com/tsellobenok/local-rag/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsellobenok/local-rag.git"
+  },
+  "license": "ISC",
+  "author": "Dzmitry Tselabionak",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "bun src/index.ts"
+  },
+  "dependencies": {
+    "llamaindex": "0.8.31"
+  },
+  "devDependencies": {
+    "prettier": "3.4.2"
+  }
+}
